@@ -1,0 +1,12 @@
+jinja commands
+
+|upper
+|lower
+|capitalize
+ title
+|safe - pass html into webpage,it strips out html
+        using safe the html tags get applied into the webpage
+
+|strongtags - disables the tags and doesnt implement html
+
+|trim removes trailing spaces

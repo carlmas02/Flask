@@ -1,0 +1,19 @@
+<h1> Hello {{user}}</h1>
+
+
+<h2> {{example_safe|safe}} </h2>
+
+
+<h2> Favourite pizza </h2>
+
+
+{%for i in pizza%}
+	{%if i == 10 %}
+		<h2>hey {{user}}</h2>
+	{%else %}
+		{{i}} <br/>
+	{% endif %}
+{% endfor %}
+
+<br/><br/>
+{{pizza.0+20}}
